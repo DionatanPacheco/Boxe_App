@@ -1,4 +1,5 @@
 import 'package:boxe_app/page/loguin/loguin_Page.dart';
+import 'package:boxe_app/page/timer/timer.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,9 +12,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Boxe App',
-      home: LoguinPage(),
+      home: TimerPage(),
       debugShowCheckedModeBanner: false,
     );
   }

@@ -1,6 +1,7 @@
 import 'package:boxe_app/helpers/CustomColors.dart';
 import 'package:boxe_app/page/loguin/loguin_Page.dart';
 import 'package:boxe_app/page/music_player/song_page.dart';
+import 'package:boxe_app/page/timer/timer.dart';
 import 'package:flutter/material.dart';
 
 class HomeDrawer extends StatelessWidget {
@@ -59,11 +60,12 @@ class HomeDrawer extends StatelessWidget {
                 color: CustonColors().getAppBarMainColor(),
               ),
               title: const Text(
-                'Item 3',
+                'Timer',
                 style: TextStyle(color: Color.fromARGB(221, 8, 8, 8)),
               ),
               onTap: () {
-                // Update the state of the app.
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => TimerPage()));
                 // ...
               },
             ),
