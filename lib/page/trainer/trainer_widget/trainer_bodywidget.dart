@@ -10,9 +10,7 @@ class HomeTrainerBodyWigdget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return (!model.isWhithGym)
-        ? Container(
-            child: Column(children: [Image.asset('/assets/chave.png')]),
-          )
+        ? Column(children: [Image.asset('/assets/chave.png')])
         : Container();
   }
 }

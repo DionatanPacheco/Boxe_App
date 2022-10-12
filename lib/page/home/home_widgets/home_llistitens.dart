@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 
 import 'package:boxe_app/page/home/home_widgets/home_listmodel.dart';
 
-import 'home_listmodel.dart';
-
 class HomeListItens extends StatefulWidget {
   final HomeListModel homeListModel;
   const HomeListItens({
