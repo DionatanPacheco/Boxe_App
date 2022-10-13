@@ -1,5 +1,9 @@
+import 'dart:async';
+
+import 'package:boxe_app/page/home/home_Page.dart';
 import 'package:boxe_app/page/loguin/loguin_Page.dart';
 import 'package:boxe_app/page/timer/timer.dart';
+import 'package:boxe_app/page/timer2/timer2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Boxe App',
-      home: TimerPage(),
+      home: TimerPage2(),
       debugShowCheckedModeBanner: false,
     );
   }

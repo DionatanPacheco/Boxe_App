@@ -2,6 +2,7 @@ import 'package:boxe_app/helpers/CustomColors.dart';
 import 'package:boxe_app/page/loguin/loguin_Page.dart';
 import 'package:boxe_app/page/music_player/song_page.dart';
 import 'package:boxe_app/page/timer/timer.dart';
+import 'package:boxe_app/page/timer2/timer2.dart';
 import 'package:flutter/material.dart';
 
 class HomeDrawer extends StatelessWidget {
@@ -56,7 +57,7 @@ class HomeDrawer extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(
-                Icons.settings,
+                Icons.alarm,
                 color: CustonColors().getAppBarMainColor(),
               ),
               title: const Text(
@@ -66,6 +67,21 @@ class HomeDrawer extends StatelessWidget {
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => TimerPage()));
+                // ...
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.alarm,
+                color: CustonColors().getAppBarMainColor(),
+              ),
+              title: const Text(
+                'Timer 2',
+                style: TextStyle(color: Color.fromARGB(221, 8, 8, 8)),
+              ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => TimerPage2()));
                 // ...
               },
             ),
