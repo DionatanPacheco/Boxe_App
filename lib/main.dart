@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Boxe App',
-      home: TimerPage2(),
+      home: LoguinPage(),
       debugShowCheckedModeBanner: false,
     );
   }
