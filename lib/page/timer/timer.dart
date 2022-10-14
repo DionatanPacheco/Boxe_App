@@ -1,17 +1,15 @@
 import 'dart:async';
 
 import 'package:boxe_app/page/home/home_Page.dart';
-import 'package:boxe_app/page/loguin/loguin_Page.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 
-class TimerPage extends StatefulWidget {
-  @override
-  _TimerPageState createState() => _TimerPageState();
-}
+  class TimerPage extends StatefulWidget {
+    @override
+    _TimerPageState createState() => _TimerPageState();
+  }
 
-class _TimerPageState extends State<TimerPage> {
+  class _TimerPageState extends State<TimerPage> {
 
   int Time = 0;
   double percent = 0;
