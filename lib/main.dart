@@ -1,5 +1,3 @@
-
-import 'package:boxe_app/page/loguin/loguin_Page.dart';
 import 'package:boxe_app/page/timer2/timer2.dart';
 import 'package:flutter/material.dart';
 
